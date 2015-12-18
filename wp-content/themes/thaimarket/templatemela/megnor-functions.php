@@ -580,6 +580,7 @@ function templatemela_load_fonts() {
 	$protocol = is_ssl() ? 'https' : 'http';
 	wp_enqueue_style( 'opensans-user', "$protocol://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" );
 	wp_enqueue_style( 'Rokkitt', "$protocol://fonts.googleapis.com/css?family=Rokkitt:300,400,500,600,700" );
+	wp_enqueue_style( 'Roboto Slab', "$protocol://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,vietnamese,greek-ext,greek,latin-ext,cyrillic,cyrillic-ext" );
 }
 endif;
 add_action( 'get_header', 'templatemela_load_fonts' );
