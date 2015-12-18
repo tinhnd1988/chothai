@@ -97,3 +97,24 @@ span.customSelect.changed {
 .customSelectOpen .customSelectInner {
     background: url('../../images/megnor/up_arrow.png') no-repeat center right;
 }
+
+/*NEW CUSTOM*/
+.price {
+    overflow: hidden;
+}
+.price .amount{
+    font-size: 16px;
+    font-weight: bold;
+}
+.price del{
+    float: left;
+    padding-left: 15px;
+}
+.price del .amount{
+    font-weight: normal;
+    font-size: 13px;    
+}
+.price ins{
+    float: right;
+    padding-right: 15px;
+}

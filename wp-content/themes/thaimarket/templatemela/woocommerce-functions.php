@@ -1,5 +1,4 @@
 <?php 
-
 // Add woocommerce support theme
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
