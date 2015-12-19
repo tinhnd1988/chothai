@@ -171,7 +171,7 @@ wp_head();
 												<?php echo _e('Tài khoản','templatemela'); ?> &nbsp;/ </a>
 												<a href="<?php echo esc_url($logout_url); ?>" class="logout" ><i class="fa fa-power-off"></i><?php echo _e('Đăng xuất','templatemela'); ?></a> <?php }
 												else { ?>
-												<a href="<?php echo esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') ) ); ?>" class="login show-login-link" id="show-login-link" ><i class="fa fa-unlock-alt"></i><?php echo _e('Login/Register','templatemela'); ?></a>
+												<a href="<?php echo esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') ) ); ?>" class="login show-login-link" id="show-login-link" ><i class="fa fa-unlock-alt"></i><?php echo _e('Đăng nhập/Đăng ký','templatemela'); ?></a>
 												<?php } ?>  
 											</div>
 										</div>
