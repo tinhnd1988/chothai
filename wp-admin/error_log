@@ -1,0 +1,12 @@
+[28-Dec-2015 05:44:34 UTC] PHP Fatal error:  Out of memory (allocated 70778880) (tried to allocate 122880 bytes) in /home/chothain/public_html/staging/wp-admin/custom-header.php on line 552
+[28-Dec-2015 05:44:34 UTC] PHP Fatal error:  Out of memory (allocated 64749568) (tried to allocate 158 bytes) in /home/chothain/public_html/staging/wp-includes/pomo/streams.php on line 81
+[28-Dec-2015 05:44:34 UTC] PHP Fatal error:  Out of memory (allocated 50855936) (tried to allocate 32 bytes) in /home/chothain/public_html/staging/wp-includes/pomo/entry.php on line 76
+[28-Dec-2015 05:44:34 UTC] PHP Fatal error:  Out of memory (allocated 59244544) (tried to allocate 9 bytes) in /home/chothain/public_html/staging/wp-includes/pomo/streams.php on line 110
+[28-Dec-2015 05:44:34 UTC] PHP Fatal error:  Out of memory (allocated 55050240) (tried to allocate 7680 bytes) in /home/chothain/public_html/staging/wp-content/themes/thaimarket/templatemela/shortcode/shortcode.php on line 2039
+[28-Dec-2015 05:45:03 UTC] PHP Fatal error:  Out of memory (allocated 56098816) (tried to allocate 7680 bytes) in /home/chothain/public_html/staging/wp-content/themes/thaimarket/templatemela/meta-box/inc/fields/checkbox.php on line 40
+[28-Dec-2015 05:45:03 UTC] PHP Fatal error:  Out of memory (allocated 64487424) (tried to allocate 77 bytes) in /home/chothain/public_html/staging/wp-includes/pomo/mo.php on line 268
+[28-Dec-2015 05:45:03 UTC] PHP Fatal error:  Out of memory (allocated 33030144) (tried to allocate 30720 bytes) in /home/chothain/public_html/staging/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-payment-gateway.php on line 304
+[28-Dec-2015 05:45:03 UTC] PHP Fatal error:  Out of memory (allocated 71303168) (tried to allocate 122880 bytes) in /home/chothain/public_html/staging/wp-admin/includes/file.php on line 347
+[28-Dec-2015 05:46:19 UTC] PHP Fatal error:  Out of memory (allocated 30146560) (tried to allocate 122880 bytes) in /home/chothain/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 847
+[28-Dec-2015 05:46:19 UTC] PHP Fatal error:  Out of memory (allocated 48234496) (tried to allocate 90 bytes) in /home/chothain/public_html/staging/wp-includes/pomo/mo.php on line 268
+[28-Dec-2015 05:46:19 UTC] PHP Fatal error:  Out of memory (allocated 40370176) (tried to allocate 122880 bytes) in /home/chothain/public_html/staging/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-titles.php on line 530

@@ -99,22 +99,55 @@ span.customSelect.changed {
 }
 
 /*NEW CUSTOM*/
-.price {
+/*.price {
     overflow: hidden;
-}
+}*/
 .price .amount{
     font-size: 16px;
     font-weight: bold;
 }
+.price del .amount{
+    font-weight: 400;    
+}
+/*
 .price del{
     float: left;
     padding-left: 15px;
 }
-.price del .amount{
-    font-weight: normal;
-    font-size: 13px;    
-}
 .price ins{
     float: right;
     padding-right: 15px;
+}*/
+.header_left{
+    position: relative;
+    margin: 12px 0 !important;
+}
+.header-main h2.site-description{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+    top: 30%;
+    left: 120%;
+    font-size: 16px;
+}
+.woocommerce-wishlist .addto-cart-hover{
+    position: relative;
+    opacity: 1;
+}
+.woocommerce-wishlist .product-price{
+    text-align: left;
+}
+
+/*CUSTOME RESPONSIVE*/
+@media screen and (max-width: 999px) {
+    .header-main h2.site-description{
+        top: inherit;
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header-main h2.site-description{
+        position: initial;
+    }
 }

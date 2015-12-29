@@ -1,0 +1,18 @@
+# Translators: an.ho1991@gmail.com, 2015
+msgid "Product Name"
+msgstr "Tên sản phẩm"
+
+msgid "Unit Price"
+msgstr "Giá"
+
+msgid "Stock Status"
+msgstr "Tình trạng"
+
+msgid "In Stock"
+msgstr "Còn hàng"
+
+msgid "Out of Stock"
+msgstr "Hết hàng"
+
+msgid "Product correctly added to cart"
+msgstr "Sản phẩm đã được thêm vào giỏ"

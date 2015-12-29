@@ -109,11 +109,15 @@
 	.body_twoleftcallout .secondary-sidebar, .body_tworightcallout .secondary-sidebar, .body_threecallout .secondary-sidebar {width:100%;}
 	.home-slider {  width: 100%;}
 
-	.home-subbanner {   float: left;   width: 100%;     margin-bottom: 25px;}
+	.home-subbanner {   float: left;   width: 100%;     margin-bottom: 25px; text-align: center;}
+	.home-subbanner .textwidget{float: left;
+	    margin-left: 3%;
+	    width: 46%;
+	}
 	.banner{  
 			display: inline-block;
     		margin: 5px 1% 0 0;
-    		width: 49%;}
+    		width: 100%;}
 	.banner img{width: 100%;}
 	
 	.home-topbanner	{ width:100%;}
@@ -306,7 +310,7 @@
 	.mega-menu ul .sub li.mega-hdr li a { padding:5px 2%; }
 	.toggled-on .mega-menu ul li.menu-item-has-children a,
 	.toggled-on .mega-menu ul li a {
-		padding: 5px 12px 5px 8px;
+		padding: 12px 12px 12px 8px;
     	width: 96%;
 		text-transform: capitalize;
 	}
@@ -562,7 +566,7 @@
 
 
 @media only screen and (max-width: 767px) {
-	
+	.site-description {display: none;}
 	.topbar-main, .header-main, .slider_area_inner,  .home.page .main-content-inner, .panel-row-style-inner-container, .main-content.left-sidebar, .top_main, .footer-bottom-container, .navbar, .site-main , .site-footer
 	{ width:auto; margin:0 15px;}
 	 #footer-widget-area , .footer_inner{width:auto; margin:0;}
@@ -1198,7 +1202,10 @@
 	}
 	.woocommerce ul.products li.product.columns-3, .woocommerce-page ul.products li.product.columns-3{width:100% !important;}
 	.footer-widget-area-inner-sub{width:93%; }
-	.primary-sidebar .widget{width:95%; padding:5px;}
+	.primary-sidebar .widget{
+		width:95%; 
+		padding:10px;
+	}
 	#secondary .widget .widget-title{background-image:none;}	
 	.footer-menu, .footer-menu-links{line-height:26px;}
 	

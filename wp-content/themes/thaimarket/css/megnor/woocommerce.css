@@ -934,7 +934,7 @@ div.product .woocommerce-tabs ul.tabs li{
 .woocommerce span.onsale,.woocommerce-page span.onsale {
    color: #777;
     display: block;
-    left: -40px;
+    left: -45px;
     padding: 10px 40px;
     position: absolute;
     text-align: center;
@@ -1112,6 +1112,7 @@ ul.products.list li.product img{width:27.75px !important;}
 	 -webkit-transition: all 300ms linear 0s;
     -moz-transition: all 300ms linear 0s;
     -o-transition: all 300ms linear 0s;
+    min-height: 303px;
 }
 
 .woocommerce ul.products li.first .container-inner, .woocommerce-page ul.products li.first .container-inner{
@@ -1293,6 +1294,7 @@ ul.products.list li.product img{width:27.75px !important;}
     color:#777;
     font-size: 14px;
     /*margin-right: 5px;*/
+    display: block;
 	margin:-2px 0 0;
 }
 .woocommerce ul.products .product-type-grouped .price,
@@ -2894,7 +2896,7 @@ color:#7aa8cc;
     width: 100%;
 }
 .woocommerce .summary .product_meta .posted_in{
-	display: inline-block;
+	display: block;
 	clear: both;
 }
 .woocommerce .summary .product_meta .tagged_as{

@@ -482,4 +482,5 @@ include_once("templatemela/megnor-functions.php");
 
 add_filter( 'widget_text', 'shortcode_unautop');
 add_filter( 'widget_text', 'do_shortcode');
+remove_action('wp_head', 'wp_generator');
 ?>

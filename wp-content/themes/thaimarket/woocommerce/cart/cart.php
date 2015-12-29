@@ -141,7 +141,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <div class="cart-collaterals">
 	
-	<?php woocommerce_cart_totals(); ?>
+	<?php //woocommerce_cart_totals(); ?>
 	<?php do_action( 'woocommerce_cart_collaterals' ); ?>
 
 </div>

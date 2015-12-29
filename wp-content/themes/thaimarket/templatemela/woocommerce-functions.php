@@ -14,7 +14,7 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	global $woocommerce;	
 	ob_start();	
 	?>
-<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'templatemela'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'templatemela'), $woocommerce->cart->cart_contents_count);?><?php echo $woocommerce->cart->get_cart_total(); ?></a>
+<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'templatemela'); ?>"><?php echo sprintf(_n('%d sản phẩm', '%d sản phẩm', $woocommerce->cart->cart_contents_count, 'templatemela'), $woocommerce->cart->cart_contents_count);?><?php echo $woocommerce->cart->get_cart_total(); ?></a>
 <?php	
 	$fragments['a.cart-contents'] = ob_get_clean();	
 	return $fragments;
@@ -47,7 +47,7 @@ function tm_header_cart() { ?>
 			<?php global $woocommerce;
 			ob_start();?>						
 			<div id="shopping_cart" class="shopping_cart tog" title="<?php _e('View your shopping cart', 'woothemes'); ?>">
-			<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'templatemela'), $woocommerce->cart->cart_contents_count);?><?php echo $woocommerce->cart->get_cart_total(); ?>  </a>				
+			<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo sprintf(_n('%d sản phẩm', '%d sản phẩm', $woocommerce->cart->cart_contents_count, 'templatemela'), $woocommerce->cart->cart_contents_count);?><?php echo $woocommerce->cart->get_cart_total(); ?>  </a>				
 			<span class="right-arrow"></span>
 			</div>	
 			<?php global $woocommerce; ?>

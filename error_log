@@ -1,0 +1,5 @@
+[19-Dec-2015 12:32:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, object given in /home/chothain/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php on line 443
+[19-Dec-2015 12:32:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, object given in /home/chothain/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php on line 443
+[19-Dec-2015 12:35:14 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, object given in /home/chothain/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php on line 443
+[19-Dec-2015 12:35:14 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, object given in /home/chothain/public_html/staging/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php on line 443
+[28-Dec-2015 05:46:19 UTC] PHP Fatal error:  Out of memory (allocated 54525952) (tried to allocate 71 bytes) in /home/chothain/public_html/staging/wp-includes/pomo/entry.php on line 76
